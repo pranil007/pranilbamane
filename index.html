@@ -30,10 +30,23 @@
     <!-- Core Style Css -->
     <link rel="stylesheet" href="assets/css/style.css">
 
+
+<!-- ontact form -->
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback" async defer></script>
+    <script>
+var onloadCallback = function() {
+    grecaptcha.execute();
+};
+function setResponse(response) {
+    document.getElementById('captcha-response').value = response;
+}
+    </script>
+
+
 </head>
 
 <body class="dots-waves">
-
+<div class="g-recaptcha" data-sitekey="6Lcs0yMpAAAAAPO9TT-8k3qpHyEgZpQ03v_S4rqJ" data-badge="inline" data-size="invisible" data-callback="setResponse"></div>
 
 
     <!-- ==================== Start Loading ==================== -->
@@ -1239,7 +1252,7 @@ shapes and sizes, so contact me if you'd like to work together on your next proj
                     </div>
                     <div class="col-lg-6 offset-lg-1 valign">
                         <div class="full-width">
-                            <form id="contact-form" method="post" action="https://ui-themez.smartinnovates.net/items/hawke/contact.php">
+                            <form method="post" action="vendor/contact.php">
 
                                 <div class="messages"></div>
 
@@ -1247,39 +1260,48 @@ shapes and sizes, so contact me if you'd like to work together on your next proj
 
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <input id="form_name" type="text" name="name" placeholder="Name"
+                                            <input id="form_name" type="text" name="idname" placeholder="Name"
                                                 required="required">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <input id="form_email" type="email" name="email" placeholder="Email"
+                                            <input id="form_email" type="email" name="idemail" placeholder="Email"
                                                 required="required">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <input id="form_phone" type="text" name="phone" placeholder="Phone">
+                                            <input id="form_phone" type="text" name="idphone" placeholder="Phone">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6">
                                         <div class="form-group mb-30">
-                                            <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                            <input id="form_subject" type="text" name="idsubject" placeholder="Subject">
                                         </div>
                                     </div>
 
                                     <div class="col-12">
                                         <div class="form-group">
-                                            <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                            <textarea id="form_message" name="idmessage" placeholder="Message" rows="4"
                                                 required="required"></textarea>
                                         </div>
                                         <div class="mt-30">
-                                            <button type="submit">
+                                           
+                                        <div class="form-group"> 
+                                        <style>
+                                            .grecaptcha-badge {
+                                                display: none;
+                                            }
+                                        </style>
+                                           <input type="hidden" id="captcha-response" name="captcha-response" />
+                                              <button type="submit" name="submit" id="submit" value="Submit">
                                                 <span class="text">Send A Message</span>
                                             </button>
+                                            </div>
                                         </div>
                                     </div>
 
