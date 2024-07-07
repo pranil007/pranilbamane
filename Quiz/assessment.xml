@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assessment>
+    <settings>
+        <passingMarks>10</passingMarks>
+        <marksPerQuestion>2</marksPerQuestion>
+    </settings>
+    <questions>
+        <question>
+            <text>Q. When india wil ODI world cup?</text>
+            <options>
+                <option>2011</option>
+                <option>2009</option>
+                <option>2023</option>
+                <option>1990</option>
+            </options>
+            <correctAnswer>2011</correctAnswer>
+        </question>
+        <question>
+            <text>Q. What is your capital of India?</text>
+            <options>
+                <option>Mumbai</option>
+                <option>Kolkata</option>
+                <option>Delhi</option>
+                <option>Chennai</option>
+            </options>
+            <correctAnswer>Delhi</correctAnswer>
+        </question>
+        <question>
+            <text>Q. On which planet do we live?</text>
+            <options>
+                <option>Mars</option>
+                <option>Earth</option>
+                <option>Venus</option>
+                <option>Jupiter</option>
+            </options>
+            <correctAnswer>Earth</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Which is biggest country in world by area</text>
+            <options>
+                <option>Russia</option>
+                <option>India</option>
+                <option>USA</option>
+                <option>China</option>
+            </options>
+            <correctAnswer>Russia</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Following is not programming language</text>
+            <options>
+                <option>Javascript</option>
+                <option>C++</option>
+                <option>Java</option>
+                <option>English</option>
+            </options>
+            <correctAnswer>English</correctAnswer>
+        </question>
+        <question>
+            <text>Q. When india got independence</text>
+            <options>
+                <option>1947</option>
+                <option>1950</option>
+                <option>1971</option>
+                <option>1900</option>
+            </options>
+            <correctAnswer>1947</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Who is the FIFA men's champion?</text>
+            <options>
+                <option>Spain</option>
+                <option>Germany</option>
+                <option>Argentina</option>
+                <option>Italy</option>
+            </options>
+            <correctAnswer>Argentina</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Who is the current president of india</text>
+            <options>
+                <option>Narendra Modi</option>
+                <option>Rahul Gandhi</option>
+                <option>Kejrival</option>
+                <option>Droupadi Murmu</option>
+            </options>
+            <correctAnswer>Droupadi Murmu</correctAnswer>
+        </question>
+        <question>
+            <text>Q. What is the chemical formula of baking soda</text>
+            <options>
+                <option>H2O</option>
+                <option>NaHCO₃</option>
+                <option>NaCa4</option>
+                <option>Co2</option>
+            </options>
+            <correctAnswer>NaHCO₃</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Who is the founder of computer</text>
+            <options>
+                <option>Horst Zuse</option>
+                <option>Konrad Zuse</option>
+                <option>Howard H. Aiken</option>
+                <option>Charles Babbage</option>
+            </options>
+            <correctAnswer>Charles Babbage</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Who invented zero first?</text>
+            <options>
+                <option>Aryabhata</option>
+                <option>Ramanujan's</option>
+                <option>Brahmagupta</option>
+                <option>Benjamin Franklin</option>
+            </options>
+            <correctAnswer>Aryabhata</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Which of the following is not a valid input type</text>
+            <options>
+                <option>Text</option>
+                <option>Radio</option>
+                <option>Email</option>
+                <option>Absolute</option>
+            </options>
+            <correctAnswer>Absolute</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Which of the following is not a CSS property?</text>
+            <options>
+                <option>line-height</option>
+                <option>font-style</option>
+                <option>para-height</option>
+                <option>font-weight</option>
+            </options>
+            <correctAnswer>para-height</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Which of the following is not a front-end programming language</text>
+            <options>
+                <option>Html</option>
+                <option>SQL</option>
+                <option>Css</option>
+                <option>ReactJs</option>
+            </options>
+            <correctAnswer>SQL</correctAnswer>
+        </question>
+        <question>
+            <text>Q. Who is most successful captain of indian cricket team</text>
+            <options>
+                <option>MS Dhoni</option>
+                <option>Saurav Ganguly</option>
+                <option>Kapil Dev</option>
+                <option>Rohit Sharma</option>
+            </options>
+            <correctAnswer>MS Dhoni</correctAnswer>
+        </question>
+    </questions>
+</assessment>
